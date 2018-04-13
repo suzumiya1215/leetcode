@@ -11,5 +11,11 @@ public:
 			if (n < pow(2 , i))
 				return false;
 		}
+		//if (n < 1)
+        //    return false;
+        //else 
+        //    return (n & (n - 1)) == 0;
+
+
 	}
 };
